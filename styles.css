@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: white;
+    color: grey;
+    padding: 20px;
+}
+.sticky-header {
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; 
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav img {
+    margin: 10px;
+    padding: 0;
+}
+.img-sec{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+   
+}
+.vertical-line {
+    border-left: 1px solid #333; 
+    height: 50px; 
+    margin: 10px; 
+}
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
+    color: black;
+}
+.res{
+    color: #FFFFFF;
+    background-color: #0F97AA;
+    text-decoration: none;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 15px;
+    padding: 12px 24px;
+ 
+}
+
+.cont{
+    color: white;
+    background: url( https://demo.ovatheme.com/hotelft/wp-content/uploads/2022/02/header-banner-contact.jpg );
+    height: 234px;
+    width: 100vw;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Barlow';
+   
+}
+.styled-hr {
+    border: 0;
+    height: 2px;
+    width: 10%;
+    background: white;
+    margin: 0 auto;
+}
+.contact-section-main {
+    display: flex;
+    line-height: 2;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+.contact-info {
+    background-color: skyblue;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex: 1;
+    max-width: 400px;
+    color: white;
+    background-image: url('Blue\ Wallpaper\ 💙.jpg');
+}
+
+ .contact-form {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex: 1;
+    /* max-width: 400px; */
+}
+
+.contact-info h2, .contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-section {
+    display: flex;
+    /* align-items: ; */
+}
+
+.contact-info ul li {
+    margin: 10px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+}
+
+.social-media a:hover {
+    background-color: aliceblue;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.map-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 90vw;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+.foot {
+    background-color: #063c43;
+    width: 100vw;
+    height: 400px;
+ 
+ 
+}
+.parent-foot {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: #dadada;
+}
+
+.links{
+    line-height: 2;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.line{
+    color: white;
+    margin:30px;
+}
+.bottom{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child1 {
+    margin-top: 30px;
+    margin-left: 15px;
+    line-height: 2;
+}
+.child2 {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.child3 {
+    margin-top: 30px;
+    margin-left: 15px;
+    line-height: 2;
+}
+
+.sub{
+    display: flex;
+    margin-bottom: 8px;
+    height: 40px;
+}
+
+.sub, input[type=mail]{
+    background-color: #fff;
+    width: 100%;
+    height: 48px;
+    max-width: 319px;
+    border: none;
+    border-radius: 6px 0 0 6px;
+}
+
+.sub, input[type=submit]{
+    width: 100%;
+    max-width: 129px;
+    border: none;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+    background-color:#0f97aa ;
+    height: 48px;
+    
+}
+
+.bottom{
+    margin-top: 100px;
+}
+.bottom1 {
+    color: white;
+}
+.bottom2 {
+    color: white;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.styled-hr1, .styled-hr2 {
+    border: 0;
+    height: 3px;
+    background: white;
+    margin: 10px 0;
+}
+.styled-hr2 {
+    width: 20%;
+}
+.styled-hr1 {
+    width: 30%;
+}
+.lang{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #0f0f0f;
+}
+
+.contact-item a:hover {
+    background-color: #fff;
+    color: #007BFF;
+    
+}
+
+input[type=submit] a:hover {
+    background-color: #ffffff;
+    
+}
